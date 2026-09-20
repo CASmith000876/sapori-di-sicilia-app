@@ -227,7 +227,7 @@
     nav.querySelectorAll('.nav__btn').forEach((b) => b.classList.toggle('is-active', b.dataset.go === state.screen));
     const n = cartCount();
     badge.hidden = n === 0; badge.textContent = n;
-    window.scrollTo(0, 0);
+    app.scrollTo(0, 0);
   }
 
   let toastEl;
