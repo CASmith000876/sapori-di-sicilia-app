@@ -8,3 +8,5 @@ android/.idea/
 keys/
 SaporiDiSicilia-*.apk
 app-qr.png
+share/
+*.zip
